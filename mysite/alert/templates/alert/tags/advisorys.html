@@ -1,6 +1,12 @@
 {% for advisory in advisorys %}
-	<p class="advisory">
-		<span class="title">{{ advisory.text}}</span></br>
-		<span class="until">{{ advisory.enddate }}</span>
-	</p>
+<div class="wrap-notices warning layout-band">
+  <div class="wrap-notice">
+    <div class="alert alert-global" role="alert">
+    	<p class="advisory">
+    		<span class="title">{{ advisory.text}}</span></br>
+    		<span class="until">{{ advisory.enddate }}</span>
+    	</p>
+    </div>
+  </div>
+</div>
 {% endfor %}
