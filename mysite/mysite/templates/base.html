@@ -1,4 +1,4 @@
-{% load static wagtailuserbar alert_tags %}
+{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar alert_tags %}
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -19,6 +19,13 @@
 
         {# Global stylesheets #}
         <link rel="stylesheet" type="text/css" href="{% static 'css/mysite.css' %}">
+
+        {% with settings.utils.theme as theme %}
+            {% if theme %}
+                <link rel="stylesheet" type="text/css" href="{% static 'css/'|add:theme.css|add:'.css' %}">
+            {% endif %}
+        {% endwith %}
+
 
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
