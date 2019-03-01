@@ -62,7 +62,16 @@
           <div class="wrap-content">
             <main id="content-main" class="content-main" role="main">
 
-                {% block content %}{% endblock %}
+
+
+                <div class="layout-3q1q layout-band">
+                  <div class="col3q">
+                    {% block content %}{% endblock %}
+                  </div>
+                  <aside class="col1q-r">
+                    {% block aside %}{% endblock %}
+                  </aside>
+                </div>
 
             </main>
             <!-- close content-main -->

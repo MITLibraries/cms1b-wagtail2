@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'location',
     'search',
     'utils',
+    'childsite',
 
     'wagtail.contrib.settings',
     'wagtail.contrib.forms',

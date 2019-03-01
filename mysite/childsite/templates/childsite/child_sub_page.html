@@ -1,0 +1,17 @@
+{% extends "3q1q-layout.html" %}
+
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-childsitehome{% endblock %}
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+
+    {{ page.body|richtext }}
+
+{% endblock %}
+
+{% block aside %}
+    
+
+{% endblock %}
