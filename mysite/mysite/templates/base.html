@@ -64,6 +64,11 @@
 
                 {% block content %}{% endblock %}
 
+                {% with settings.utils.SocialMediaSettings as social %}
+                {% if social.facebook %}
+                <div class="box-content"><a href="{{ settings.utils.SocialMediaSettings.facebook }}">Follow us on Facebook</a></div>
+                {% endif %}
+                {% endwith %}
             </main>
             <!-- close content-main -->
 
