@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     'search',
     'utils',
     'childsite',
-
+    
+    'wagtail_simple_gallery',
     'wagtail.contrib.settings',
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "673a742d93897c03e85d50b008a263e148b2c793b306c7dc2cdf22d81e257cdc"
+            "sha256": "cf09b4d7da675f6a21c2f5edb4d639b1e77a84277cb2f9b0e17efde9883e4ad0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -68,10 +68,10 @@
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:79c6efbb2514bc50cf25906d7c0a5cfead714c7af667ff4bd110312cd380ae66",
-                "sha256:a4138613b67e3a223be6c97f53b13d759c5b90d2b433bad670b8ebf95402075f"
+                "sha256:8a435df9007c8b7d8e69a21ef06650e3c0cbe0d4b09e55dd1bd74c89a75a9fcd",
+                "sha256:f7a266260d656e1cf4ca54d7a7349609dc8af4fe2590edd0ecd7d7643ea94a17"
             ],
-            "version": "==3.9.1"
+            "version": "==3.9.2"
         },
         "draftjs-exporter": {
             "hashes": [
@@ -170,6 +170,13 @@
             ],
             "index": "pypi",
             "version": "==2.4"
+        },
+        "wagtail-simple-gallery": {
+            "hashes": [
+                "sha256:ebe235f45acbeb81fd0c9c5389f3c62ce643d66f5ba0f5c9f036e043b0b6a20f"
+            ],
+            "index": "pypi",
+            "version": "==0.6.2"
         },
         "webencodings": {
             "hashes": [
