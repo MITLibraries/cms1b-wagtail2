@@ -62,13 +62,17 @@
           <div class="wrap-content">
             <main id="content-main" class="content-main" role="main">
 
-                {% block content %}{% endblock %}
 
-                {% with settings.utils.SocialMediaSettings as social %}
-                {% if social.facebook %}
-                <div class="box-content"><a href="{{ settings.utils.SocialMediaSettings.facebook }}">Follow us on Facebook</a></div>
-                {% endif %}
-                {% endwith %}
+
+                <div class="layout-3q1q layout-band">
+                  <div class="col3q">
+                    {% block content %}{% endblock %}
+                  </div>
+                  <aside class="col1q-r">
+                    {% block aside %}{% endblock %}
+                  </aside>
+                </div>
+
             </main>
             <!-- close content-main -->
 
