@@ -1,4 +1,4 @@
-{% load static wagtailcore_tags wagtailimages_tags wagtailuserbar alert_tags %}
+{% load menu_tags static wagtailcore_tags wagtailimages_tags wagtailuserbar alert_tags %}
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -56,6 +56,8 @@
             </header>
           </div>
         </div>
+
+        {% main_menu %}
 
         <div class="wrap-outer-content layout-band">
 
